@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #fafafa;
+}
+
+#contenedor {
+    background: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+    /* Flexbox */
+    display: flex;
+    flex-flow: row wrap;
+}
