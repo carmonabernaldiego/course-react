@@ -1,0 +1,25 @@
+aside {
+    background: linear-gradient(45deg, #e39132, #c716e2);
+    padding: 20px;
+    /*FLEX*/
+    flex: 1 1 30%;
+    /*flex:0 0 300px;*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+aside span {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+aside .widget {
+    margin: 10px;
+}

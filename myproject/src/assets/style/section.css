@@ -1,0 +1,73 @@
+.main {
+	background: linear-gradient(45deg, #f1f5ff, #fff1ff);
+	padding:20px;
+
+	flex:1 1 70%;
+	/*flex:1;*/
+}
+
+.main article h2.titulo-presentacion {  
+	background: -webkit-linear-gradient(left top, rgb(255, 0, 247), rgb(0, 179, 255));
+	background: linear-gradient(to bottom right, rgb(255, 0, 247), rgb(0, 179, 255));
+	-webkit-background-clip: text;  
+	-webkit-text-fill-color: transparent;  
+  }  
+
+.main h2 span {
+	font-size: 1.6em;
+}
+
+.main article {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+}
+
+.main article p {
+	text-align: justify;
+}
+
+.main article:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+
+.main article input[type=email]{
+	width: 60%;
+    height: 40px;
+    padding: 0 2%;
+	margin-top: 14px;
+    background: transparent;
+    box-shadow: 0 1px 6px rgb(142 136 192 / 20%);
+    border: 2px solid #929cb9;
+    border-radius: 0.4em;
+    color: #687292;
+    font-size: .9em;
+    font-weight: 600;
+    outline: none !important;
+    outline-width: 0 !important;
+    transition: all 300ms ease-out;
+}
+
+.main article button {
+    height: 40px;
+	width: 100px;
+	margin-left: 8px;
+    background: #0057FF;
+    box-shadow: 0 1px 6px rgb(142 136 192 / 20%);
+    border: none;
+    border-radius: 0.4em;
+    color: #eef4ff;
+    font-size: .9em;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none !important;
+    outline-width: 0 !important;
+    transition: all 300ms ease-out;
+}
+
+.main article button:hover {
+    background: #012293;
+    transition: all 300ms ease-out;
+}

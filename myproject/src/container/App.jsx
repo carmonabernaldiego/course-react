@@ -1,13 +1,15 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Contacto from "../components/Contacto";
+import Section from "../components/Section";
+import Aside from "../components/Aside";
 import "../assets/style/body.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Contacto />
+      <Section />
+      <Aside />
       <Footer />
     </>
   );

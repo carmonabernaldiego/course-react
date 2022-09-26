@@ -1,14 +1,19 @@
-import logoFacebook from "../assets/img/facebook.svg";
-import logoTwitter from "../assets/img/twitter.svg";
-import logoYoutube from "../assets/img/youtube.svg";
 import "../assets/style/footer.css";
 
 function Footer() {
   return (
     <footer>
-      <img src={logoFacebook} alt="Logo Facebook"></img>
-      <img src={logoTwitter} alt="Logo Twitter"></img>
-      <img src={logoYoutube} alt="Logo Youtube"></img>
+      <section class="links">
+        <a href="#">Inicio</a>
+        <a href="#">Porfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacto</a>
+      </section>
+
+      <div class="social">
+        <a href="https://www.linkedin.com/in/cbdiego/">Linkedin</a>
+        <a href="https://github.com/carmonabernaldiego">GitHub</a>
+      </div>
     </footer>
   );
 }

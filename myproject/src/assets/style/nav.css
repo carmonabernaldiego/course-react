@@ -1,0 +1,36 @@
+nav {
+    width: 50%;
+    /* Flexbox */
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+nav a {
+    background: linear-gradient(to bottom right, #0057FF, #012293);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+    /* Flexbox */
+    flex-grow: 1;
+    transition: all 300ms ease-out;
+}
+
+nav a:first-child {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+nav a:last-child {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+nav a:hover {
+    background: linear-gradient(45deg, #0037ff, #00adff);
+    transform: scale(1.1);
+}
