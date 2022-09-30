@@ -1,0 +1,23 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-image: url(../img/bg-purple.jpg);
+}
+
+#contenedor {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+
+@media screen and (max-width: 600px) {
+	#contenedor {
+		padding: 20px;
+	}
+}
