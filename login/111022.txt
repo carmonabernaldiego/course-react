@@ -1,0 +1,10 @@
+
+UseEffect
+Ejecuta una instruccion despues del montaje o actualizacion de un componente.
+Hace al menos una actualización.
+
+I. useEffect(function (){ ... }) <- Se actualiza siempre que se actualiza el componente
+
+II. useEffect(()=>{ ... }, [---]) <- Actualiza siempre que el elemento dentro de los brackets se actualicen
+
+III. useEffect(()=>{},[]) <- Solo actualiza una vez

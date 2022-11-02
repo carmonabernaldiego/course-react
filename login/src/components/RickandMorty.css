@@ -1,0 +1,45 @@
+.card-character{
+    text-align: center;
+    margin: 18px 0;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgb(46, 46, 46);
+}
+
+.filter{
+    cursor: default;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.473);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 78, 78, 0.212);
+    backdrop-filter: blur(2px);
+}
+
+.filter:hover{
+    opacity: 0;
+    transition: 200ms;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.name-character{
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.status-character{
+    color: rgb(65, 255, 65);
+    margin: 0;
+}
