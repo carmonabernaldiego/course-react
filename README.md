@@ -1,3 +1,1 @@
-# Despliegue de una paǵina estática en una Instancia AWS
-
-# Vite React JS
+# Curso ReactJS y despliegue en AWS
