@@ -1,1 +1,1 @@
-# Curso ReactJS y despliegue en AWS
+# Curso ReactJS y despliegue en AWS EC2
